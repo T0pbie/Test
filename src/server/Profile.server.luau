@@ -52,6 +52,6 @@ end
 Players.PlayerAdded:Connect(PlayerAdd)
 
 -- In case Players have joined the server earlier than this script ran:
-for _, player in Players:GetPlayers() do
-	task.spawn(PlayerAdd, player)
+for _, Player in Players:GetPlayers() do
+	task.spawn(PlayerAdd, Player)
 end
