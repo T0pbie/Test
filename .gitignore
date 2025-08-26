@@ -1,0 +1,10 @@
+# Project place file
+/Test.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+Packages/
+scourcemap.json
+wally.lock
